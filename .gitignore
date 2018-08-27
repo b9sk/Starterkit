@@ -5,6 +5,7 @@
 /phpcs.xml
 bower_components
 node_modules
+yarn.lock
 
 #kirby
 /site/accounts
