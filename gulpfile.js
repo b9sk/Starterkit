@@ -20,7 +20,7 @@
         dist = path + '/dist/';
 
 
-    gulp.task('default', ['styles', 'scripts', 'images', 'html']);
+    gulp.task('default', ['styles', 'images', 'html']);
 
     gulp.task('clean', function () {
         // Remove everything from dist folder
@@ -95,7 +95,7 @@
         });
 
         gulp.watch( src + 'scss/**/*.scss' , ['styles'] );
-        gulp.watch( src + 'js/**/*.js'     , ['scripts'] );
+        // gulp.watch( src + 'js/**/*.js'     , ['scripts'] );
         gulp.watch( src + 'html/**/*.html' , ['html'] );
         gulp.watch( src + 'img/**/*'       , ['images'] );
     });
