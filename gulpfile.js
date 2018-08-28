@@ -20,6 +20,7 @@
         dist = path + '/dist/';
 
 
+    // gulp.task('default', ['styles', 'scripts', 'images', 'html']);
     gulp.task('default', ['styles', 'images', 'html']);
 
     gulp.task('clean', function () {
